@@ -31,7 +31,7 @@ onPlayerSpawned()
 	for(;;)
 	{
 		self waittill( "player_revived" );
-		self.maxhealth=150;
+		self.maxhealth=250;
 		self.health=self.maxhealth;
 	}
 }
